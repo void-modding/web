@@ -145,6 +145,8 @@ body {
 }
 
 .subtext-pill {
+  display: flex;
+  gap: .6em;
   padding: 0.6em 1.1em;
   border: 1px solid rgba(255,255,255,0.2);
   border-radius: 999px;

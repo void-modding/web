@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { animate, createTimeline, random, stagger } from "animejs";
+import { GithubIcon } from "lucide-react";
 import { useEffect, useRef } from "react";
 
 export const Route = createFileRoute("/")({ component: App });
@@ -129,7 +130,16 @@ function App() {
 			</div>
 			<div className="subtext">
 				<span className="subtext-pill">Launching soon</span>
-				<span className="subtext-pill accent">Stay Tuned</span>
+				<a
+					type="button"
+					href="https://github.com/void-modding"
+					target="_blank"
+					className="subtext-pill accent"
+					rel="noopener"
+				>
+					<GithubIcon />
+					Stay Tuned
+				</a>
 			</div>
 		</div>
 	);
