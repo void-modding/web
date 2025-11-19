@@ -37,12 +37,14 @@ function RootDocument({ children }: { children: React.ReactNode }) {
 				<meta name="og:title" content="Void modding" />
 				<meta name="og:description" content="The new home of modding (maybe)" />
 				<meta name="og:url" content="https://voidmodding.org" />
+				<meta name="og:image" content="/preview.png" />
 
 				<meta name="twitter:title" content="Void modding" />
 				<meta
 					name="twitter:description"
 					content="The new home of modding (maybe)"
 				/>
+				<meta name="twitter:image" content="/preview.png" />
 				<meta name="twitter:url" content="https://voidmodding.org" />
 			</head>
 			<body>
