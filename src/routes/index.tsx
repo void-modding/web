@@ -126,8 +126,8 @@ function App() {
         		</p>
 
 				<div className="flex gap-4 mb-20">
-					<a href="/download" className="bg-cyan-500 hover:bg-cyan-600 px-6 py-2 rounded-md font-medium transition inline-block">Download</a>
-        				<a href="https://github.com/void-modding/" target="_blank" rel="noopener noreferrer" className="bg-[#1a1d23] hover:bg-[#22262d] px-6 py-2 rounded-md font-medium transition border border-white/10 inline-flex items-center gap-2"><img src="github.png" alt="GitHub" className="h-5 w-5" />Source Code</a>
+					<a href="/download" target="_blank" rel="noopener noreferrer" className="bg-cyan-500 hover:bg-cyan-600 px-6 py-2 rounded-md font-medium transition inline-flex items-center gap-2"><img src="download.png" alt="Download" className="h-5 w-5" />Download</a>
+        			<a href="https://github.com/void-modding/" target="_blank" rel="noopener noreferrer" className="bg-[#1a1d23] hover:bg-[#22262d] px-6 py-2 rounded-md font-medium transition border border-white/10 inline-flex items-center gap-2"><img src="github.png" alt="GitHub" className="h-5 w-5" />Source Code</a>
 				</div>
 				<section className="w-full max-w-5xl flex flex-col md:flex-row items-center justify-between mt-20">
 					<div className="max-w-lg text-left">
