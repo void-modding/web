@@ -47,7 +47,10 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         <meta name="twitter:image" content="/preview.png" />
         <meta name="twitter:url" content="https://voidmodding.org" />
       </head>
-      <body data-theme="system">
+      <body
+        data-theme="system"
+        className="bg-surface-100 text-surface-950 dark:bg-surface-900 dark:text-surface-50"
+      >
         {children}
         <TanStackDevtools
           config={{

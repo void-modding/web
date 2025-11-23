@@ -10,13 +10,13 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-slate-200 text-slate-950 shadow-xs hover:bg-slate-200/90 dark:bg-slate-700 dark:text-slate-50 dark:hover:bg-slate-700/90",
-        primary: "bg-primary text-slate-950 hover:bg-primary/90",
+          "bg-surface-200 text-surface-950 shadow-xs hover:bg-surface-200/90 dark:bg-surface-800 dark:text-surface-50 dark:hover:bg-surface-800/90",
+        primary: "bg-primary text-surface-950 hover:bg-primary/90",
         outline:
-          "border-2 border-slate-300 bg-slate-100 text-slate-950 shadow-xs hover:bg-slate-100/90 dark:border-slate-600 dark:bg-slate-700 dark:text-slate-50 dark:hover:bg-slate-700/90",
+          "border-2 border-surface-300 bg-surface-200 text-surface-950 shadow-xs hover:bg-surface-200/90 dark:border-surface-700 dark:bg-surface-800 dark:text-surface-50 dark:hover:bg-surface-800/90",
         ghost:
-          "text-slate-950 hover:bg-slate-200 dark:text-slate-50 dark:hover:bg-slate-700",
-        link: "text-slate-950 underline-offset-4 hover:underline dark:text-slate-50",
+          "text-surface-950 hover:bg-surface-200 dark:text-surface-50 dark:hover:bg-surface-800",
+        link: "text-surface-950 underline-offset-4 hover:underline dark:text-surface-50",
       },
       size: {
         default: "h-9 px-4 py-2 has-[>svg]:px-3",

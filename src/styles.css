@@ -1,11 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import "tailwindcss";
-@import "tw-animate-css";
 
-@custom-variant dark (&:is(.dark *));
+* {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
 
 @theme {
-  /* primary colours */
+  /* brand colours */
   --color-primary: oklch(0.83 0.131 206.07);
+  --color-primary-tint: oklch(0.652 0.108 205.98);
+
+  /* surface colours */
+  --color-surface-50: oklch(0.983 0.003 309.08);
+  --color-surface-100: oklch(0.94 0.007 304.48);
+  --color-surface-200: oklch(0.847 0.016 310.18);
+  --color-surface-300: oklch(0.761 0.022 306.82);
+  --color-surface-400: oklch(0.667 0.028 308.04);
+  --color-surface-500: oklch(0.58 0.029 307.95);
+  --color-surface-600: oklch(0.493 0.022 309.6);
+  --color-surface-700: oklch(0.398 0.016 305.74);
+  --color-surface-800: oklch(0.31 0.01 312.19);
+  --color-surface-900: oklch(0.22 0.004 308.35);
+  --color-surface-950: oklch(0.151 0.003 325.83);
 }
 
 @custom-variant dark {
