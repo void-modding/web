@@ -15,9 +15,11 @@ services:
       - "--providers.docker=true"
       - "--providers.docker.exposedbydefault=false"
       - "--entrypoints.web.address=:80"
+      - "--entrypoints.web-preview.address=:81"
+
     ports:
       - "80:80"
-      - "443:443"
+      - "81:81"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
 
@@ -30,3 +32,13 @@ services:
       - "traefik.http.routers.web.rule=Host(`voidmodding.org`)"
     deploy:
       replicas: 3
+
+  preview:
+    image: ghcr.io/void-modding/web:preview
+    restart: always
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+      - "traefik.enable=true"
+      - "traefik.http.routers.web-preview.rule=Host(`preview.voidmodding.org`)"
+    deploy:
+      replicas: 1
