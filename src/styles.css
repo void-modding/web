@@ -8,7 +8,7 @@
 @theme {
   /* brand colours */
   --color-primary: oklch(0.83 0.131 206.07);
-  --color-primary-tint: oklch(0.652 0.108 205.98);
+  --color-primary-tint: oklch(0.6307 0.1155 225.47);
 
   /* surface colours */
   --color-surface-50: oklch(0.983 0.003 309.08);
