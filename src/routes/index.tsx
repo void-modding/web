@@ -1,10 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { DownloadIcon, GithubIcon } from "lucide-react";
+import GameScroller from "@/components/game-scroller";
 import { Button } from "@/components/ui/button";
 
-export const Route = createFileRoute("/")({ component: App });
-
-function App() {
+const App = () => {
   return (
     <main className="flex w-full flex-col items-center justify-center">
       <section className="flex flex-col items-center gap-12 py-12 text-center sm:gap-16 sm:py-16">
@@ -53,6 +52,9 @@ function App() {
           development.
         </p>
       </section>
+      <GameScroller />
     </main>
   );
-}
+};
+
+export const Route = createFileRoute("/")({ component: App });
