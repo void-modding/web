@@ -35,7 +35,7 @@ function App() {
                 <DownloadIcon />
                 Download
               </a>
-            </Button> 
+            </Button>
           */}
           <Button size="lg" asChild>
             <a
@@ -48,10 +48,10 @@ function App() {
             </a>
           </Button>
         </div>
-        <span className="text-surface-600 dark:text-surface-400">
+        <p className="text-surface-600 dark:text-surface-400">
           *No release has been made available yet, the project is still in early
           development.
-        </span>
+        </p>
       </section>
     </main>
   );
