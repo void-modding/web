@@ -3,10 +3,10 @@ import Marquee from "react-fast-marquee";
 const games = [
   {
     name: "cyberpunk 2077",
+    comingSoon: true,
   },
   {
-    name: "satisfactory",
-    comingSoon: true,
+    name: "persona 5 royal",
   },
   {
     name: "cities: skylines",
@@ -24,11 +24,14 @@ const games = [
     comingSoon: true,
   },
   {
-    name: "persona 5 royal",
+    name: "satisfactory",
   },
   {
     name: "detroit: become human",
     comingSoon: true,
+  },
+  {
+    name: "bloons td 6",
   },
 ];
 
