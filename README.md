@@ -1,3 +1,5 @@
+# THIS PROJECT HAS MOVED TO [GITLAB](https://gitlab.com/void-modding/web), ALL DEVELOPMENT IS DONE THERE NOW | https://gitlab.com/void-modding/web
+
 # Getting Started
 
 To run this application:
